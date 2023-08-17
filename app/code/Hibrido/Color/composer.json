@@ -1,0 +1,22 @@
+{
+    "name": "hibrido/module-color",
+    "description": "M\u00f3dulo desenvolvido com o objetivo de alterar todos bot\u00f5es da storeView passada por par\u00e2metro juntamente com a cor escolhida",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hibrido\\Color\\": ""
+        }
+    }
+}
