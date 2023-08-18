@@ -19,6 +19,15 @@ where the first parameter is a hex value (NO NEED TO PASS THE #) that represents
 
 After this process, in magento refresh the page.
 
+-------------------------------------------------pt-br------------------------------------------------------------------------
+Módulo desenvolvido com o objetivo de alterar todos os botões do storeView passados ​​por parâmetro juntamente com a cor escolhida via linha de comando magento CLI.
+Para usar a funcionalidade de alternância de todos os botões front-end, você deve inserir o seguinte comando na raiz do projeto:
+
+bin/magento color:change 000000 1
+
+onde o primeiro parâmetro é um valor hexadecimal (NÃO PRECISA PASSAR O #) que representa uma cor e o segundo parâmetro é o id da store-view que será afetado pela alteração da cor dos botões.
+
+Após esse processo, no magento atualize a página.
 
 ## Installation
 \* = in production please use the `--keep-generated` option
@@ -51,6 +60,15 @@ For the correct operation of this module, it is necessary to perform some config
 2-) Set theme developed in the module, In Admin, go to Content > Design > Configuration. A design configuration page opens. Contains a grid with available configuration scopes, In the configuration record corresponding to your store view, click Edit. The page with design configuration for the selected scope opens, In the Default Theme tab, in the drop-down menu, select the luma_child Theme and click on save.
 
 3-) Make sure that magento is in developer mode with the command bin/magento deploy:mode:show. If you are in production mode, you can use this command to set developer mode "bin/magento deploy:mode:set developer".
+
+------------------------------------------pt-br-------------------------------------------------------------------------------
+Para o correto funcionamento deste módulo, é necessário realizar algumas configurações descritas abaixo:
+
+1-) Habilite o modo de construção menos do lado do cliente, você precisa navegar no magento admin em (Lojas > Configuração > Avançado > Desenvolvedor) Fluxo de trabalho de desenvolvimento do frontend e, em seguida, definir o lado do cliente do modo de construção MENOS do lado do cliente e clicar no botão Salvar configuração.
+
+2-) Defina o tema desenvolvido no módulo, No Admin, vá em Conteúdo > Design > Configuração. Uma página de configuração de design é aberta. Contém uma grade com os escopos de configuração disponíveis. No registro de configuração correspondente à visualização da sua loja, clique em Editar. Abre-se a página com a configuração do design para o escopo selecionado, Na aba Default Theme, no menu drop-down, selecione o luma_child Theme e clique em salvar.
+
+3-) Certifique-se que o magento está no modo desenvolvedor com o comando bin/magento deploy:mode:show. Se você estiver no modo de produção, poderá usar este comando para definir o modo de desenvolvedor "bin/magento deploy:mode:set developer".
 
 ## Specifications
 
