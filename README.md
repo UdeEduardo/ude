@@ -20,6 +20,9 @@ where the first parameter is a hex value (NO NEED TO PASS THE #) that represents
 After this process, in magento refresh the page.
 
 -------------------------------------------------pt-br--------------------------------------------------------------------------------------------------------
+
+
+
 Módulo desenvolvido com o objetivo de alterar todos os botões do storeView passados ​​por parâmetro juntamente com a cor escolhida via linha de comando magento CLI.
 Para usar a funcionalidade de alternância de todos os botões front-end, você deve inserir o seguinte comando na raiz do projeto:
 
@@ -62,6 +65,9 @@ For the correct operation of this module, it is necessary to perform some config
 3-) Make sure that magento is in developer mode with the command bin/magento deploy:mode:show. If you are in production mode, you can use this command to set developer mode "bin/magento deploy:mode:set developer".
 
 ------------------------------------------pt-br-------------------------------------------------------------------------------
+
+
+
 Para o correto funcionamento deste módulo, é necessário realizar algumas configurações descritas abaixo:
 
 1-) Habilite o modo de construção menos do lado do cliente, você precisa navegar no magento admin em (Lojas > Configuração > Avançado > Desenvolvedor) Fluxo de trabalho de desenvolvimento do frontend e, em seguida, definir o lado do cliente do modo de construção MENOS do lado do cliente e clicar no botão Salvar configuração.
