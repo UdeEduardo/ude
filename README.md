@@ -19,7 +19,7 @@ where the first parameter is a hex value (NO NEED TO PASS THE #) that represents
 
 After this process, in magento refresh the page.
 
--------------------------------------------------pt-br------------------------------------------------------------------------
+-------------------------------------------------pt-br--------------------------------------------------------------------------------------------------------
 Módulo desenvolvido com o objetivo de alterar todos os botões do storeView passados ​​por parâmetro juntamente com a cor escolhida via linha de comando magento CLI.
 Para usar a funcionalidade de alternância de todos os botões front-end, você deve inserir o seguinte comando na raiz do projeto:
 
