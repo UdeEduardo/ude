@@ -11,10 +11,8 @@ use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Store\Model\ScopeInterface;
 use Hibrido\Color\Helper\ConfigSetting;
 
-
 class GenerateStyle extends AbstractHelper
 {
-
     protected $helperConfigSetting;
 
     public function __construct(
@@ -24,18 +22,11 @@ class GenerateStyle extends AbstractHelper
         $this->helperConfigSetting = $helperConfigSetting; 
         parent::__construct($context);
     }
-
-    public function ciao(){
-        return 'Hallo :)';
-    }
-
     public function getConf($data){
         return $this->helperConfigSetting->getGeneralConfig($data);
     }
 
     public function override_css($color) {
-
-
         $style ='.action {
             &.primary {
                 background-color: #'.$color.';
@@ -47,9 +38,7 @@ class GenerateStyle extends AbstractHelper
      }
 
     public function generateStoreCss($color) {
-
         $content = $this->override_css($color);
-        
         $fp = fopen($_SERVER['DOCUMENT_ROOT'] . "app/design/frontend/Hibrido/luma_child/web/css/source/_extend.less","wb");
         fwrite($fp,$content);
         fclose($fp);
