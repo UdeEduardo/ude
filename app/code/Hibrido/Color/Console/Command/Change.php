@@ -64,22 +64,16 @@ class Change extends Command
             $output->writeln("ID INVALIDO" );
             return 0;
         }
-
         if(ctype_xdigit($color) && strlen($color)==6){
-
-            $this->helperGenerateStyle->generateStoreCss($color);
             $this->_storeManager->setCurrentStore($id);
+            $this->helperGenerateStyle->generateStoreCss($color);
             $output->writeln("ALTERADO COM SUCESSO PARA A COR: ".$color.' NA STORE VIEW '.$id);
-           
         }
         else{
-
             $output->writeln("FORMATO DE COR INVALIDO");
             $output->writeln("DIGITE A COR SEM #");
-
             return 0;
         }
-
         return 0;
     }
     /**
