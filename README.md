@@ -74,17 +74,9 @@ Para o correto funcionamento deste módulo, é necessário realizar algumas conf
 
 2-) Defina o tema desenvolvido no módulo, No Admin, vá em Conteúdo > Design > Configuração. Uma página de configuração de design é aberta. Contém uma grade com os escopos de configuração disponíveis. No registro de configuração correspondente à visualização da sua loja, clique em Editar. Abre-se a página com a configuração do design para o escopo selecionado, Na aba Default Theme, no menu drop-down, selecione o luma_child Theme e clique em salvar.
 
-3-) Certifique-se que o magento está no modo desenvolvedor com o comando bin/magento deploy:mode:show. Se você estiver no modo de produção, poderá usar este comando para definir o modo de desenvolvedor "bin/magento deploy:mode:set developer".
+3-) Certifique-se que o magento está no modo desenvolvedor com o comando bin/magento deploy:mode:show. Se você estiver no modo de produção, poderá utilizar este comando para definir o modo de desenvolvedor "bin/magento deploy:mode:set developer".
 
 ## Specifications
 
  - Console Command
 	- Change
-
-
-
-
-## Attributes
-
-
-
