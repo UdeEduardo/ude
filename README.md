@@ -70,7 +70,7 @@ For the correct operation of this module, it is necessary to perform some config
 
 Para o correto funcionamento deste módulo, é necessário realizar algumas configurações descritas abaixo:
 
-1-) Habilite o modo de construção menos do lado do cliente, você precisa navegar no magento admin em (Lojas > Configuração > Avançado > Desenvolvedor) Fluxo de trabalho de desenvolvimento do frontend e, em seguida, definir o lado do cliente do modo de construção MENOS do lado do cliente e clicar no botão Salvar configuração.
+1-) Habilite o modo de construção less do lado do cliente, você precisa navegar no magento admin em (Lojas > Configuração > Avançado > Desenvolvedor) Fluxo de trabalho de desenvolvimento do frontend e, em seguida, definir o lado do cliente do modo de construção LESS do lado do cliente e clicar no botão Salvar configuração.
 
 2-) Defina o tema desenvolvido no módulo, No Admin, vá em Conteúdo > Design > Configuração. Uma página de configuração de design é aberta. Contém uma grade com os escopos de configuração disponíveis. No registro de configuração correspondente à visualização da sua loja, clique em Editar. Abre-se a página com a configuração do design para o escopo selecionado, Na aba Default Theme, no menu drop-down, selecione o luma_child Theme e clique em salvar.
 
